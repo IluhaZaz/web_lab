@@ -1,170 +1,170 @@
 body{
-  background-image: linear-gradient(
-    to bottom,
-    rgba(255, 204, 116, 0.35),
-    rgba(255, 153, 0, 0.5)
-  ),url("фон4.jpg");
-  color: #4a3100;
-  background-repeat: no-repeat;
-  background-size: cover; 
-}
-
-
-.grid-item-intro { 
-  text-align: justify;
-  flex-basis: 60%;
-  margin:1.85% 0.9%;
-  box-shadow:inset 0px 0px 100px 70px rgb(252, 170, 62);
-  background-color: rgba(252, 170, 62, 0.3);
-  border-radius: 50px;
-  padding: 1.85%;
-  font-size: 1em;
-  transition: background-color 0.4s 0.4s;
-}
-
-.grid-item-intro:hover{
-  background-color: rgba(252, 170, 62, 0.8);
-}
-
-.grid-item-intro p{
-  margin: 2%;
-}
-
-.grid-item-img { 
-  text-align: center;
-  flex-basis: 40%;
-  margin:0.27%;
-  }
-.grid-item-vk {
-  text-align: right;
-  margin:1%;
-  flex-basis: 33%;
- }
-.grid-item-tg { 
-  text-align: center;
-  margin:1%;
-  flex-basis: 33%;
-  }
-
-  .grid-item-git{
-    text-align: left;
-  margin:1%;
-  flex-basis: 33%;
-  }
-
-  h1{
-    padding: 0 1.85%;
-    font-size: 2em;
-  }
-
-  h2{
-    text-align: center;
-    margin: 0.2% 0 0 0;
-    font-size: 1.25em;
-  }
-
-  img.avatar{
-    width:60%;
-    border-radius: 60%;
-    box-shadow: 0px 0px 100px 25px rgb(252, 170, 62);
-  }
-
-  .footer-flex{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .main-flex{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .nav-flex{
-    width: 25%;
-    margin-right: 1.85%;
-    margin-left: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    box-shadow:inset 0px 0px 20px 15px rgb(255, 225, 180);
-    background-color:rgba(255, 225, 180, 0.3);
-    border-radius: 20px;
-    padding: 0.46% 1%;
-    transition: background-color 0.4s 0.4s;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(255, 204, 116, 0.35),
+      rgba(255, 153, 0, 0.5)
+    ),url("фон4.jpg");
+    color: #4a3100;
+    background-repeat: no-repeat;
+    background-size: cover; 
   }
   
-  .nav-flex:hover{
-    background-color: rgba(255, 225, 180, 0.8);
-  }
   
-  div.blog_page{
-    flex-basis: 50%;
-    text-align: center;
-    padding: 3% 0%;
-  }
-
-  div.blog_page a{
-    margin:1.85% 1.38%;
-    text-decoration: none;
-    color:inherit;
-    font-size: 1em;
-  }
-
-  footer{
-    box-shadow:inset 0px 0px 60px 40px rgb(255, 153, 0);
-    background-color: rgba(255, 153, 0, 0.3);
+  .flex-item-intro { 
+    text-align: justify;
+    flex-basis: 60%;
+    margin:1.85% 0.9%;
+    box-shadow:inset 0px 0px 100px 70px rgb(252, 170, 62);
+    background-color: rgba(252, 170, 62, 0.3);
     border-radius: 50px;
-    width:70%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3.2%;
-    margin-bottom: 2%;
+    padding: 1.85%;
+    font-size: 1em;
     transition: background-color 0.4s 0.4s;
   }
   
-  footer:hover{
-    background-color: rgba(255, 153, 0, 0.8);
-  }
-
-  header{
-    box-shadow:inset 0px 0px 60px 40px rgb(255, 204, 116);
-    background-color:rgba(255, 204, 116, 0.3);
-    border-radius: 25px;
-    margin-bottom:4%;
-    margin-top: 2%;
-    padding: 0.95% 0;;
-    transition: background-color 0.4s 0.4s;
+  .flex-item-intro:hover{
+    background-color: rgba(252, 170, 62, 0.8);
   }
   
-  header:hover{
-    background-color: rgba(255, 204, 116, 0.8);
-  }
-
-  img{
-    margin:0 0.46%;
-    font-size: 0.85em;
-  }
-
-  .social-name{
-    margin: 1.5%;
-    font-size: 0.85em;
+  .flex-item-intro p{
+    margin: 2%;
   }
   
-  .no-trasparent-anim {
-    transition: background-color 0.4s 0.4s;
-  }
+  .flex-item-img { 
+    text-align: center;
+    flex-basis: 40%;
+    margin:0.27%;
+    }
+    .flex-item-vk {
+        text-align: right;
+        margin:1%;
+        flex-basis: 33%;
+       }
+      .flex-item-tg { 
+        text-align: center;
+        margin:1%;
+        flex-basis: 33%;
+        }
+      
+        .flex-item-git{
+          text-align: left;
+        margin:1%;
+        flex-basis: 33%;
+        }
   
-  .no-trasparent-anim:hover {
-    background-color: rgba(255, 225, 180, 0.8);
-  }
-
-  ::selection {
-    color: white;
-    background: rgba(0, 0, 0, 0.3);
-  }
-
-  pre{
-    font-size : 1.5em;
-    font-weight: bold;
-    margin:0;
-  }
+    h1{
+      padding: 0 1.85%;
+      font-size: 2em;
+    }
+  
+    h2{
+      text-align: center;
+      margin: 0.2% 0 0 0;
+      font-size: 1.25em;
+    }
+  
+    img.avatar{
+      width:60%;
+      border-radius: 60%;
+      box-shadow: 0px 0px 100px 25px rgb(252, 170, 62);
+    }
+  
+    .footer-flex{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .main-flex{
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .nav-flex{
+      width: 25%;
+      margin-right: 1.85%;
+      margin-left: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      box-shadow:inset 0px 0px 20px 15px rgb(255, 225, 180);
+      background-color:rgba(255, 225, 180, 0.3);
+      border-radius: 20px;
+      padding: 0.46% 1%;
+      transition: background-color 0.4s 0.4s;
+    }
+    
+    .nav-flex:hover{
+      background-color: rgba(255, 225, 180, 0.8);
+    }
+    
+    div.blog_page{
+      flex-basis: 50%;
+      text-align: center;
+      padding: 3% 0%;
+    }
+  
+    div.blog_page a{
+      margin:1.85% 1.38%;
+      text-decoration: none;
+      color:inherit;
+      font-size: 1em;
+    }
+  
+    footer{
+        box-shadow:inset 0px 0px 60px 30px rgb(255, 153, 0);
+        background-color: rgba(255, 153, 0, 0.3);
+        border-radius: 50px;
+        width:50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3.2%;
+        margin-bottom: 2%;
+        transition: background-color 0.4s 0.4s;
+      }
+    
+    footer:hover{
+      background-color: rgba(255, 153, 0, 0.8);
+    }
+  
+    header{
+      box-shadow:inset 0px 0px 60px 40px rgb(255, 204, 116);
+      background-color:rgba(255, 204, 116, 0.3);
+      border-radius: 25px;
+      margin-bottom:4%;
+      margin-top: 2%;
+      padding: 0.95% 0;;
+      transition: background-color 0.4s 0.4s;
+    }
+    
+    header:hover{
+      background-color: rgba(255, 204, 116, 0.8);
+    }
+  
+    img{
+      margin:0 0.46%;
+      font-size: 0.85em;
+    }
+  
+    .social-name{
+      margin: 1.5%;
+      font-size: 0.85em;
+    }
+    
+    .no-trasparent-anim {
+      transition: background-color 0.4s 0.4s;
+    }
+    
+    .no-trasparent-anim:hover {
+      background-color: rgba(255, 225, 180, 0.8);
+    }
+  
+    ::selection {
+      color: white;
+      background: rgba(0, 0, 0, 0.3);
+    }
+  
+    pre{
+      font-size : 1.5em;
+      font-weight: bold;
+      margin:0;
+    }
